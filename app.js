@@ -4,7 +4,7 @@ var data = [
   {
     name:'C-IDE',
     url:'http://cide-makepost.rhcloud.com/',
-    github:'https://github.com/abdghani/IDE.git',
+    github:'https://github.com/abdghani/ONLINE-C-IDE.git',
     description:'a simple easy to use c ide made using node and angular js. begin coding in c with just your browser',
     image:'cide.png'
   },
@@ -38,6 +38,29 @@ var data = [
   }
 ]
 
+var skills = [
+  {
+    name:'JAVASCRIPT (MEAN STACK)',
+    level:85
+  },
+  {
+    name:'PHP (LAMP STACK)',
+    level:80
+  },
+  {
+    name:'DJANGO',
+    level:50
+  },
+  {
+    name:'c++, java, python',
+    level:70
+  },
+  
+
+]
+
+
 app.controller("project_controller",function($scope){
   $scope.projs = data;
+  $scope.skill = skills;
 })
