@@ -5,14 +5,14 @@ var data = [
     name:'C-IDE',
     url:'http://cide-makepost.rhcloud.com/',
     github:'https://github.com/abdghani/ONLINE-C-IDE.git',
-    description:'a simple easy to use c ide made using node and angular js. begin coding in c with just your browser',
+    description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
   },
   {
     name:'MAKEPOST  ',
     url:'http://makepost.co.in/anoceanofsky/login',
     github:'https://github.com/abdghani/makepost.git',
-    description:'a simple php social networking website where one can post,like,comment,upload photos and chat',
+    description:'A simple php social networking website where one can post,like,comment,upload photos and chat',
     image:'makepost.png'
   },
   {
@@ -26,14 +26,14 @@ var data = [
     name:'EASY TWEET',
     url:'http://tweet-makepost.rhcloud.com/',
     github:'https://github.com/abdghani/tweet.git',
-    description:'A full mean stack based website where one can tweet . Login using passport js in facebook and google is provived Full use of REST api in data excahnge between front and back end',
+    description:'A full mean stack based website where one can tweet . Login in with facebook or google ',
     image:'easytweet.png'
   },
   {
     name:'EXPRESS TODO',
     url:'http://expresstodo-makepost.rhcloud.com/',
     github:'https://github.com/abdghani/expressTodo.git',
-    description:'A Standarnd REST api based mean stack basedwebsite. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Main all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
+    description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
   }
 ]
