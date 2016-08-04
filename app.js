@@ -41,7 +41,7 @@ var data = [
     url:'http://ec2-52-39-216-105.us-west-2.compute.amazonaws.com:3000/',
     github:'https://github.com/abdghani/angular2_imdb_app.git',
     description:'An angular 2 app . Get details of any MOVIE . Made using Omdb API',
-    image:'bookmark.png'
+    image:'imdb.png'
   }
 ]
 
