@@ -35,6 +35,13 @@ var data = [
     github:'https://github.com/abdghani/expressTodo.git',
     description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
+  },
+  {
+    name:'MOVIE SEARCH',
+    url:'http://ec2-52-39-216-105.us-west-2.compute.amazonaws.com:3000/',
+    github:'https://github.com/abdghani/angular2_imdb_app.git',
+    description:'An angular 2 app . Get details of any MOVIE . Made using Omdb API',
+    image:'bookmark.png'
   }
 ]
 
