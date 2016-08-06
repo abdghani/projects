@@ -9,8 +9,8 @@ var data = [
     image:'cide.png'
   },
   {
-    name:'MAKEPOST  ',
-    url:'http://makepost.co.in/anoceanofsky/login',
+    name:'RecSys',
+    url:'http://ec2-52-42-211-147.us-west-2.compute.amazonaws.com:2000/',
     github:'https://github.com/abdghani/makepost.git',
     description:'A simple php social networking website where one can post,like,comment,upload photos and chat',
     image:'makepost.png'
@@ -18,8 +18,8 @@ var data = [
   {
     name:'GITHUB INFO',
     url:'https://githubinfo.herokuapp.com/',
-    github:'https://github.com/abdghani/gitinfo.git',
-    description:'A single page simple angular application with full usage of promises(q). Search for anybody on github using username',
+    github:'https://github.com/abdghani/recomender.git',
+    description:'A movie recomender system made using REST apis of node and Flask api for data analysis.mongodb as a database and angular as front end . For analystics K-nearest neighbour is applied',
     image:'githubinfo.png'
   },
   {
