@@ -1,20 +1,27 @@
-var app = angular.module('projects',[])
+var app = angular.module('projects',[]);
 
 var data = [
   {
     name:'C-IDE',
-    url:'http://cide-makepost.rhcloud.com/',
+    url:'https://c-ide.herokuapp.com//',
     github:'https://github.com/abdghani/ONLINE-C-IDE.git',
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
   },
   {
-    name:'RecSys',
-    url:'http://ec2-52-42-211-147.us-west-2.compute.amazonaws.com:2000/',
-    github:'https://github.com/abdghani/recomender.git',
-    description:'A simple php social networking website where one can post,like,comment,upload photos and chat',
-    image:'makepost.png'
+    name:'SMSANY',
+    url:'https://smsany.herokuapp.com/',
+    github:'https://github.com/abdghani/aws-sns',
+    description:'A simple mobile push message service using Amazon sns',
+    image:'cides.png'
   },
+  // {
+  //   name:'RecSys',
+  //   url:'http://ec2-52-42-211-147.us-west-2.compute.amazonaws.com:2000/',
+  //   github:'https://github.com/abdghani/recomender.git',
+  //   description:'A simple php social networking website where one can post,like,comment,upload photos and chat',
+  //   image:'makepost.png'
+  // },
   {
     name:'GITHUB INFO',
     url:'https://githubinfo.herokuapp.com/',
@@ -43,7 +50,7 @@ var data = [
     description:'An angular 2 app . Get details of any MOVIE . Made using Omdb API',
     image:'imdb.png'
   }
-]
+];
 
 var skills = [
   {
@@ -64,10 +71,10 @@ var skills = [
   },
   
 
-]
+];
 
 
 app.controller("project_controller",function($scope){
   $scope.projs = data;
   $scope.skill = skills;
-})
+});
