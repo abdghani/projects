@@ -26,7 +26,7 @@ var data = [
     name:'GITHUB INFO',
     url:'https://githubinfo.herokuapp.com/',
     github:'https://github.com/abdghani/gitinfo.git',
-    description:'A movie recomender system made using REST apis of node and Flask api for data analysis.mongodb as a database and angular as front end . For analystics K-nearest neighbour is applied',
+    description:'Search for anybody with there username in github',
     image:'githubinfo.png'
   },
   {
