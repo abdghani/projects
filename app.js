@@ -3,7 +3,7 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'C-IDE',
-    url:'https://c-ide.herokuapp.com//',
+    url:'https://c-ide.herokuapp.com/',
     github:'https://github.com/abdghani/ONLINE-C-IDE.git',
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
