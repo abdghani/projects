@@ -15,13 +15,13 @@ var data = [
     description:'A simple mobile push message service using Amazon sns',
     image:'cides.png'
   },
-  // {
-  //   name:'RecSys',
-  //   url:'http://ec2-52-42-211-147.us-west-2.compute.amazonaws.com:2000/',
-  //   github:'https://github.com/abdghani/recomender.git',
-  //   description:'A simple php social networking website where one can post,like,comment,upload photos and chat',
-  //   image:'makepost.png'
-  // },
+  {
+    name:'P-IDE',
+    url:'https://p-ide.herokuapp.com/',
+    github:'https://github.com/abdghani/p-ide.git',
+    description:'An online IDE for python where one can run machine learning codes using pandas,numpy,scipy,etc Backend hosted at amazon ec2',
+    image:'makepost.png'
+  },
   {
     name:'GITHUB INFO',
     url:'https://githubinfo.herokuapp.com/',
@@ -43,13 +43,13 @@ var data = [
     description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
   },
-  {
-    name:'MOVIE SEARCH',
-    url:'http://ec2-52-66-22-195.ap-south-1.compute.amazonaws.com:3000/',
-    github:'https://github.com/abdghani/angular2_imdb_app.git',
-    description:'An angular 2 app . Get details of any MOVIE . Made using Omdb API',
-    image:'imdb.png'
-  }
+//   {
+//     name:'MOVIE SEARCH',
+//     url:'http://ec2-52-66-22-195.ap-south-1.compute.amazonaws.com:3000/',
+//     github:'https://github.com/abdghani/angular2_imdb_app.git',
+//     description:'An angular 2 app . Get details of any MOVIE . Made using Omdb API',
+//     image:'imdb.png'
+//   }
 ];
 
 var skills = [
