@@ -17,7 +17,7 @@ var data = [
   },
   {
     name:'P-IDE',
-    url:'https://p-ide.herokuapp.com/',
+    url:'http://www.thegreyphase.info/',
     github:'https://github.com/abdghani/p-ide.git',
     description:'An online IDE for python where one can run machine learning codes using pandas,numpy,scipy,etc Backend hosted at amazon ec2',
     image:'makepost.png'
