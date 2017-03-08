@@ -24,10 +24,10 @@ var data = [
   },
   {
     name:'ANGULAR2GITHUB',
-    url:'http://104.236.87.227:3000/'
+    url:'http://104.236.87.227:3000/',
     github:'https://github.com/abdghani/angular2imdb',
     description:'Search for any movie on imdb. Made completely using angular 2'
-  }
+  },
   {
     name:'GITHUB INFO',
     url:'https://githubinfo.herokuapp.com/',
