@@ -4,21 +4,21 @@ var data = [
   {
     name:'P-IDE',
     url:'http://www.thegreyphase.info/',
-    github:'https://github.com/abdghani/p-ide.git',
+    github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using pandas,numpy,scipy,etc Backend hosted at amazon ec2',
     image:'makepost.png'
   },
   {
     name:'SMSANY',
     url:'https://smsany.herokuapp.com/',
-    github:'https://github.com/abdghani/aws-sns',
+    github:'https://github.com/abdghani/smsany',
     description:'A simple mobile push message service using Amazon sns',
     image:'cides.png'
   },
   {
     name:'C-IDE',
     url:'https://c-ide.herokuapp.com/',
-    github:'https://github.com/abdghani/ONLINE-C-IDE.git',
+    github:'https://github.com/abdghani/c-ide',
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
   },
@@ -50,7 +50,7 @@ var data = [
     image:'bookmark.png'
   },
   {
-    name:'Tweetify',
+    name:'TWEETIFY',
     url:'http://tweetsearch.bitballoon.com/',
     github:'https://github.com/abdghani/tweety',
     description:'Sentiment analysis on twitter feed.'

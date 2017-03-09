@@ -92,8 +92,6 @@
                 <div class="summary">
                     <p>
                         A highly enthusiastic web developer .Have been developing web apps for the past 3 years using popular web frameworks like the MEAN stack, LAMP stack ,Django. etc.
-
-                        
                     </p>
                 </div>
             </section>
@@ -116,14 +114,18 @@
 
                 <div class="item" ng-repeat="i in projs">
                     <span class="project-title" >
-
-                    	{{$index+1}} &nbsp <a href="#hook">{{i.name}}</a></span> - <span class="project-tagline">
+                    	{{$index+1}} &nbsp <a href="#hook"><b>{{i.name}}</b></a></span> - <span class="project-tagline">
                     	<span class="project-tagline">{{i.description}}</span>	
                     	<br>
-                    		<a href="{{i.url}}" target="_blank" style="text-decoration:underline">DEMO</a>
-                    		<a href="{{i.github}}" target="_blank" title="source code of {{i.name}} in github" class ="pull-right"><i class="fa fa-github"></i>
+                        <button class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="see a demo">
+                                <a href="{{i.url}}" target="_blank" style="text-decoration:none">DEMO</a>
+                        </button>
+                    	<button class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
+                    		<a href="{{i.github}}" target="_blank" class ="pull-right"><i class="fa fa-github"></i>
                     	</a>
+                        </button>
                     </span>
+                    <hr>
                 </div> 
             </section>
             
@@ -137,8 +139,6 @@
                             </div>                                      
                         </div><!--//level-bar-->                                 
                     </div><!--//item-->
-                    
-                    
                 </div>  
             </section><!--//skills-section-->
             <br>
