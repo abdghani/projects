@@ -3,7 +3,7 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'P-IDE',
-    url:'http://www.thegreyphase.info/',
+    url:'http://ec2-35-154-124-176.ap-south-1.compute.amazonaws.com:3002',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using pandas,numpy,scipy,etc Backend hosted at amazon ec2',
     image:'makepost.png'
