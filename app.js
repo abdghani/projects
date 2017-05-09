@@ -5,16 +5,24 @@ var data = [
     name:'P-IDE',
     url:'http://ec2-35-154-124-176.ap-south-1.compute.amazonaws.com:3002',
     github:'https://github.com/abdghani/pIDE',
-    description:'An online IDE for python where one can run machine learning codes using pandas,numpy,scipy,etc Backend hosted at amazon ec2',
+    description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
   },
   {
     name:'SMSANY',
     url:'https://smsany.herokuapp.com/',
     github:'https://github.com/abdghani/smsany',
-    description:'A simple mobile push message service using Amazon sns',
+    description:'A simple mobile push message service using Amazon sns . Can be included as a service with any platfor by user authentication  ',
     image:'cides.png'
   },
+  {
+    name:'EXPRESS TODO',
+    url:'http://expresstodo-makepost.rhcloud.com/',
+    github:'https://github.com/abdghani/expressTodo.git',
+    description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
+    image:'bookmark.png'
+  },
+
   {
     name:'C-IDE',
     url:'https://c-ide.herokuapp.com/',
@@ -42,13 +50,7 @@ var data = [
     description:'A full mean stack based website where one can tweet . Login in with facebook or google ',
     image:'easytweet.png'
   },
-  {
-    name:'EXPRESS TODO',
-    url:'http://expresstodo-makepost.rhcloud.com/',
-    github:'https://github.com/abdghani/expressTodo.git',
-    description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
-    image:'bookmark.png'
-  },
+
   {
     name:'TWEETIFY',
     url:'http://tweetsearch.bitballoon.com/',
@@ -74,7 +76,7 @@ var skills = [
     name:'c++, java, python',
     level:70
   },
-  
+
 
 ];
 
