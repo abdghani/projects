@@ -16,6 +16,17 @@ var data = [
     image:'cides.png'
   },
   {
+    name:'FREELANCE',
+    url:'http://139.59.30.223',
+    github:'https://github.com/IamAKX/Freelance',
+    description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://139.59.30.223/#!/app'
+  },
+  {
+    name:'NEWZY',
+    url:'http://139.59.18.99:3005',
+    description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
+  },
+  {
     name:'EXPRESS TODO',
     url:'http://expresstodo-makepost.rhcloud.com/',
     github:'https://github.com/abdghani/expressTodo.git',
