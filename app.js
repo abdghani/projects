@@ -3,7 +3,7 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'P-IDE',
-    url:'ec2-13-126-31-113.ap-south-1.compute.amazonaws.com:3002',
+    url:'http://ec2-13-126-31-113.ap-south-1.compute.amazonaws.com:3002',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
