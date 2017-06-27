@@ -3,7 +3,7 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'P-IDE',
-    url:'http://ec2-13-126-31-113.ap-south-1.compute.amazonaws.com:3002',
+    url:'todo.thegreyphase.xyz',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
@@ -17,13 +17,13 @@ var data = [
   },
   {
     name:'FREELANCE',
-    url:'http://139.59.30.223',
+    url:'freelance.thegreyphase.xyz',
     github:'https://github.com/IamAKX/Freelance',
     description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://139.59.30.223/#!/app'
   },
   {
     name:'NEWZY',
-    url:'http://139.59.18.99:3005',
+    url:'http://news.thegreyphase.xyz/',
     description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
   },
   {
