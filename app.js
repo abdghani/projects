@@ -3,21 +3,21 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'P-IDE',
-    url:'todo.thegreyphase.xyz',
+    url:'http://ide.thegreyphase.xyz',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
   },
   {
     name:'SMSANY',
-    url:'https://smsany.herokuapp.com/',
+    url:'http://smsany.greyphase.xyz/',
     github:'https://github.com/abdghani/smsany',
     description:'A simple mobile push message service using Amazon sns . Can be included as a service with any platfor by user authentication  ',
     image:'cides.png'
   },
   {
     name:'FREELANCE',
-    url:'freelance.thegreyphase.xyz',
+    url:'http://freelance.thegreyphase.xyz',
     github:'https://github.com/IamAKX/Freelance',
     description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://139.59.30.223/#!/app'
   },
@@ -28,7 +28,7 @@ var data = [
   },
   {
     name:'EXPRESS TODO',
-    url:'http://expresstodo-makepost.rhcloud.com/',
+    url:'http://todo.greyphase.com/',
     github:'https://github.com/abdghani/expressTodo.git',
     description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
@@ -36,7 +36,7 @@ var data = [
 
   {
     name:'C-IDE',
-    url:'https://c-ide.herokuapp.com/',
+    url:'http://cide.greyphase.xyz/',
     github:'https://github.com/abdghani/c-ide',
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
