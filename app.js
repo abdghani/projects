@@ -3,7 +3,7 @@ var app = angular.module('projects',[]);
 var data = [
   {
     name:'P-IDE',
-    url:'http://ide.thegreyphase.xyz',
+    url:'http://pide.greyphase.xyz',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
@@ -17,18 +17,18 @@ var data = [
   },
   {
     name:'FREELANCE',
-    url:'http://freelance.thegreyphase.xyz',
+    url:'http://freelance.greyphase.xyz',
     github:'https://github.com/IamAKX/Freelance',
-    description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://139.59.30.223/#!/app'
+    description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://freelance.greyphase.xyz/#!/app'
   },
   {
     name:'NEWZY',
-    url:'http://news.thegreyphase.xyz/',
+    url:'http://newzy.thegreyphase.xyz/#!/home',
     description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
   },
   {
     name:'EXPRESS TODO',
-    url:'http://todo.greyphase.com/',
+    url:'http://todo.greyphase.xyz/',
     github:'https://github.com/abdghani/expressTodo.git',
     description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
@@ -49,25 +49,17 @@ var data = [
   },
   {
     name:'GITHUB INFO',
-    url:'https://githubinfo.herokuapp.com/',
+    url:'http://gitinfo.greyphase.xyz/',
     github:'https://github.com/abdghani/gitinfo.git',
     description:'Search for anybody with there username in github',
     image:'githubinfo.png'
-  },
-  {
-    name:'EASY TWEET',
-    url:'http://tweet-makepost.rhcloud.com/',
-    github:'https://github.com/abdghani/tweet.git',
-    description:'A full mean stack based website where one can tweet . Login in with facebook or google ',
-    image:'easytweet.png'
-  },
-
-  {
-    name:'TWEETIFY',
-    url:'http://tweetsearch.bitballoon.com/',
-    github:'https://github.com/abdghani/tweety',
-    description:'Sentiment analysis on twitter feed.'
   }
+  //{ 
+    //name:"Tweetify",
+     //url:'http://tweetsearch.bitballoon.com/',
+    //github:'https://github.com/abdghani/tweety',
+    //description:'Sentiment analysis on twitter feed.'
+//  }
 ];
 
 var skills = [
