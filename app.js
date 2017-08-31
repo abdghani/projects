@@ -23,7 +23,7 @@ var data = [
   },
   {
     name:'NEWZY',
-    url:'http://newzy.thegreyphase.xyz/#!/home',
+    url:'http://newzy.greyphase.xyz',
     description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
   },
   {
