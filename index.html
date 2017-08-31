@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html ng-app="projects">
+
 <head>
-	<title>Projects</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
@@ -14,6 +15,7 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
 
 </head>
+
 <body ng-controller="project_controller">
 
     <div class="wrapper">
@@ -21,7 +23,7 @@
 
             <!-- Picture and Name -->
             <div class="profile-container">
-                <img class="profile" src="images/mypic.jpeg" alt="" width="150px"/>
+                <img class="profile" src="images/mypic.jpeg" alt="" width="150px" />
                 <h1 class="name">Abdullah Ghani</h1>
                 <h3 class="tagline">Full Stack Developer</h3>
             </div>
@@ -45,18 +47,22 @@
                     <h4 class="degree"> SECONDARY</h4>
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2011</div>
-                </div><!--//item-->
+                </div>
+                <!--//item-->
                 <div class="item">
                     <h4 class="degree">SENIOR SECONDARY</h4>
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2013</div>
-                </div><!--//item-->
-                 <div class="item">
+                </div>
+                <!--//item-->
+                <div class="item">
                     <h4 class="degree">BTECH IN COMPUTER SCIENCE</h4>
                     <h5 class="meta">NSEC , Kolkata</h5>
                     <div class="time"></div>
-                </div><!--//item-->
-            </div><!--//education-container-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//education-container-->
 
             <!-- Languages -->
             <div class="languages-container container-block">
@@ -81,7 +87,7 @@
 
 
 
-<!-- main content -->
+        <!-- main content -->
 
         <div class="main-wrapper">
 
@@ -90,7 +96,7 @@
                 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
                     <p>
-                        A highly enthusiastic web developer .Have been developing web apps for the past 3 years using popular web frameworks like the MEAN stack, LAMP stack ,Django. etc.
+                        A Fullstack Developer with
                     </p>
                 </div>
             </section>
@@ -99,11 +105,26 @@
                 <div class="summary">
                     <p>
 
-                       <span class="project-tagline">Intern at</span>   <br>
-                       <a href="http://www.apnastudy.com/">Apnastudy Technology , kolkata</a>   <br>
-                       <span class="project-tagline">Working as Backend Nodejs Developer</span> <br>
-                       <span class="project-tagline">Aug 2016 - till date</span>
+                        <span class="project-tagline"><strong>INTERN </strong> </span> <br>
+                        <a href="http://www.apnastudy.com/">@ Apnastudy Technology , KOLKATA</a> <br>
+                        <span class="project-tagline">Working as Backend Nodejs Developer</span> <br>
+                        <span class="project-tagline">Aug 2016 - June 2017</span>
+                        <ul>
+                            <li>Enhancement of existing Apis</li>
+                            <li>Payment System development</li>
+                            <li>Blog Development</li>
+                        </ul>
                     </p>
+                    <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+                    <p>
+
+                        <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
+                        <a href="http://www.apnastudy.com/">@ Signzy Technologies Pvt Ltd , BANGALORE</a> <br>
+                        <span class="project-tagline">Worked As a Fullstack developer</span> <br>
+                        <span class="project-tagline">June 2017- Till Date </span>
+                    </p>
+                    <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+
                 </div>
             </section>
 
@@ -112,22 +133,22 @@
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
 
                 <div class="item" ng-repeat="i in projs">
-                    <span class="project-title" >
+                    <span class="project-title">
                     	{{$index+1}} &nbsp <a href="#hook"><b>{{i.name}}</b></a></span>
-											<button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
+                    <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
                               <a href="{{i.url}}" target="_blank" style="text-decoration:none">DEMO</a>
                       </button>
-                    	<button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
+                    <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
                     		<a href="{{i.github}}" target="_blank" class ="pull-right"><i class="fa fa-github"></i>
                     		</a>
                       </button>
-											<br>
-											<span class="project-tagline">
+                    <br>
+                    <span class="project-tagline">
                     	<span class="project-tagline">{{i.description}}</span>
-                    	<br>
+                    <br>
 
                     </span>
-										<hr style="width: 100%; color: black; height: 1px; background-color:black;" />
+                    <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
 
                 </div>
             </section>
@@ -140,19 +161,24 @@
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="{{s.level}}%">
                             </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
+                        </div>
+                        <!--//level-bar-->
+                    </div>
+                    <!--//item-->
                 </div>
-            </section><!--//skills-section-->
+            </section>
+            <!--//skills-section-->
             <br>
 
             <section class="section projects-section">
-            	<h2 class="section-title" title="click to download"	><i class="fa fa-briefcase"></i><a href="mycv.docx" style="text-decoration:none">CV <h5>LINK TO DOWNLOAD</h5></a></h2>
+                <h2 class="section-title" title="click to download"><i class="fa fa-briefcase"></i><a href="mycv.docx" style="text-decoration:none">CV <h5>LINK TO DOWNLOAD</h5></a></h2>
 
             </section>
 
-        </div><!--//main-body-->
+        </div>
+        <!--//main-body-->
     </div>
 
 </body>
+
 </html>
