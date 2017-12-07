@@ -25,7 +25,7 @@
             <div class="profile-container">
                 <img class="profile" src="images/mypic.jpeg" alt="" width="150px" />
                 <h1 class="name">Abdullah Ghani</h1>
-                <h3 class="tagline">Full Stack Developer</h3>
+                <h3 class="tagline">Full Stack Developer and a machine learning enthusiast </h3>
             </div>
 
 
@@ -48,23 +48,21 @@
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2011</div>
                 </div>
-                <!--//item-->
                 <div class="item">
                     <h4 class="degree">SENIOR SECONDARY</h4>
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2013</div>
                 </div>
-                <!--//item-->
                 <div class="item">
                     <h4 class="degree">BTECH IN COMPUTER SCIENCE</h4>
                     <h5 class="meta">NSEC , Kolkata</h5>
                     <div class="time"></div>
                 </div>
-                <!--//item-->
             </div>
+            
             <!--//education-container-->
-
             <!-- Languages -->
+
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
@@ -73,7 +71,6 @@
                     <li>Hindi <span class="lang-desc"></span></li>
                 </ul>
             </div>
-
             <!-- Interests -->
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
@@ -82,7 +79,10 @@
                     <li>Music</li>
                 </ul>
             </div>
-
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Skills</h2>
+                <h5 ng-repeat="f in funs">{{f}}</h5>
+            </div>
         </div>
 
 
@@ -96,7 +96,7 @@
                 <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
                 <div class="summary">
                     <p>
-                        A Fullstack Developer with
+                        A Fullstack Developer with experience in fintech product development
                     </p>
                 </div>
             </section>
@@ -104,7 +104,6 @@
                 <h2 class="section-title"><i class="fa fa-star"></i>Experience</h2>
                 <div class="summary">
                     <p>
-
                         <span class="project-tagline"><strong>INTERN </strong> </span> <br>
                         <a href="http://www.apnastudy.com/">@ Apnastudy Technology , KOLKATA</a> <br>
                         <span class="project-tagline">Working as Backend Nodejs Developer</span> <br>
@@ -117,14 +116,12 @@
                     </p>
                     <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
                     <p>
-
                         <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
                         <a href="http://www.apnastudy.com/">@ Signzy Technologies Pvt Ltd , BANGALORE</a> <br>
-                        <span class="project-tagline">Worked As a Fullstack developer</span> <br>
+                        <span class="project-tagline">Working As a Fullstack developer</span> <br>
                         <span class="project-tagline">June 2017- Till Date </span>
                     </p>
                     <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
-
                 </div>
             </section>
 
@@ -146,29 +143,20 @@
                     <span class="project-tagline">
                     	<span class="project-tagline">{{i.description}}</span>
                     <br>
-
                     </span>
-                    <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
+                    <hr>
 
                 </div>
             </section>
 
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset" ng-repeat="s in skill">
-                    <div class="item">
-                        <h3 class="level-title">{{s.name}}</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="{{s.level}}%">
-                            </div>
-                        </div>
-                        <!--//level-bar-->
-                    </div>
-                    <!--//item-->
+           <!--  <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Trainings</h2>
+                <div class="item" ng-repeat="s in skill">
+                        <span class="project-title">{{s.name}}</span>
+                        <hr>
                 </div>
             </section>
-            <!--//skills-section-->
-            <br>
+            <br> -->
 
             <section class="section projects-section">
                 <h2 class="section-title" title="click to download"><i class="fa fa-briefcase"></i><a href="myresume.pdf" style="text-decoration:none">CV <h5>LINK TO DOWNLOAD</h5></a></h2>

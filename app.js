@@ -2,18 +2,16 @@ var app = angular.module('projects',[]);
 
 var data = [
   {
+    name:'NEWZY',
+    url:'http://newzy.xyz',
+    description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
+  },
+  {
     name:'P-IDE',
     url:'http://pide.greyphase.xyz',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
     image:'makepost.png'
-  },
-  {
-    name:'SMSANY',
-    url:'http://smsany.greyphase.xyz/',
-    github:'https://github.com/abdghani/smsany',
-    description:'A simple mobile push message service using Amazon sns . Can be included as a service with any platfor by user authentication  ',
-    image:'cides.png'
   },
   {
     name:'FREELANCE',
@@ -22,9 +20,11 @@ var data = [
     description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://freelance.greyphase.xyz/#!/app'
   },
   {
-    name:'NEWZY',
-    url:'http://newzy.greyphase.xyz',
-    description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
+    name:'SMSANY',
+    url:'http://smsany.greyphase.xyz/',
+    github:'https://github.com/abdghani/smsany',
+    description:'A simple mobile push message service using Amazon sns . Can be included as a service with any platfor by user authentication  ',
+    image:'cides.png'
   },
   {
     name:'EXPRESS TODO',
@@ -41,12 +41,12 @@ var data = [
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
   },
-  {
-    name:'ANGULAR2GITHUB',
-    url:'http://104.236.87.227:3000/',
-    github:'https://github.com/abdghani/angular2imdb',
-    description:'Search for any movie on imdb. Made completely using angular 2'
-  },
+  // {
+  //   name:'ANGULAR2GITHUB',
+  //   url:'http://104.236.87.227:3000/',
+  //   github:'https://github.com/abdghani/angular2imdb',
+  //   description:'Search for any movie on imdb. Made completely using angular 2'
+  // },
   {
     name:'GITHUB INFO',
     url:'http://gitinfo.greyphase.xyz/',
@@ -83,8 +83,18 @@ var skills = [
 
 ];
 
-
+var funs = [
+  'Nodejs',
+  'AngularJs',
+  'MongoDb',
+  'Loopback',
+  'Python',
+  'Flask',
+  'Javascript',
+  'AWS','Digital Ocean',
+]
 app.controller("project_controller",function($scope){
   $scope.projs = data;
   $scope.skill = skills;
+  $scope.funs= funs;
 });
