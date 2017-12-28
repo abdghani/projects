@@ -4,6 +4,7 @@ var data = [
   {
     name:'NEWZY',
     url:'http://newzy.xyz',
+    github:'https://github.com/abdghani/newzy/tree/master/front',
     description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
   },
   {
@@ -28,12 +29,18 @@ var data = [
   },
   {
     name:'EXPRESS TODO',
-    url:'http://todo.greyphase.xyz/',
+    url:'http://todos.greyphase.xyz/',
     github:'https://github.com/abdghani/expressTodo.git',
     description:'A Standand REST api based mean stack website. Login using passport js in facebook . Store bookmark from any device and open it from anywhere . Maintain all your todos and never be late for anything . Easy to use interface with realtime bookmark share',
     image:'bookmark.png'
   },
-
+  {
+    name:'MOVIEREC',
+    // url:'http://todos.greyphase.xyz/',
+    github:'https://github.com/abdghani/recomender',
+    description:'A movie recommender system based on K means clustering',
+    image:'bookmark.png'
+  },
   {
     name:'C-IDE',
     url:'http://cide.greyphase.xyz/',
@@ -41,12 +48,6 @@ var data = [
     description:'A simple And easy to use c IDE made using node and angular js. Begin coding in c with just your browser',
     image:'cide.png'
   },
-  // {
-  //   name:'ANGULAR2GITHUB',
-  //   url:'http://104.236.87.227:3000/',
-  //   github:'https://github.com/abdghani/angular2imdb',
-  //   description:'Search for any movie on imdb. Made completely using angular 2'
-  // },
   {
     name:'GITHUB INFO',
     url:'http://gitinfo.greyphase.xyz/',
@@ -54,12 +55,6 @@ var data = [
     description:'Search for anybody with there username in github',
     image:'githubinfo.png'
   }
-  //{ 
-    //name:"Tweetify",
-     //url:'http://tweetsearch.bitballoon.com/',
-    //github:'https://github.com/abdghani/tweety',
-    //description:'Sentiment analysis on twitter feed.'
-//  }
 ];
 
 var skills = [
