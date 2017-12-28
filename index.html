@@ -140,9 +140,10 @@
                 <div class="item" ng-repeat="i in projs">
                     <span class="project-title">
                     	{{$index+1}} &nbsp <a href="#hook"><b>{{i.name}}</b></a></span>
+                        <a href="{{i.url}}" target="_blank" style="text-decoration:none">
                     <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
-                              <a href="{{i.url}}" target="_blank" style="text-decoration:none">DEMO</a>
-                      </button>
+                              DEMO
+                    </button></a>
                     <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
                     		<a href="{{i.github}}" target="_blank" class ="pull-right"><i class="fa fa-github"></i>
                     		</a>
