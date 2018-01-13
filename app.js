@@ -15,6 +15,13 @@ var data = [
     image:'makepost.png'
   },
   {
+    name:'POSify',
+    url:'http://posify.greyphase.xyz/',
+    github:'https://github.com/abdghani/posify',
+    description:'A parts of speech tagging application with language transaltion Using NLTK and TextBlob',
+    image:'makepost.png'
+  },
+  {
     name:'FREELANCE',
     url:'http://freelance.greyphase.xyz',
     github:'https://github.com/IamAKX/Freelance',
