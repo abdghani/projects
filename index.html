@@ -44,17 +44,20 @@
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
-                    <h4 class="degree"> SECONDARY</h4>
+                    
+                    <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i>  SECONDARY</h4>
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2011</div>
                 </div>
                 <div class="item">
-                    <h4 class="degree">SENIOR SECONDARY</h4>
+                    
+                    <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> SENIOR SECONDARY</h4>
                     <h5 class="meta">HSMS,Durgapur</h5>
                     <div class="time">2013</div>
                 </div>
                 <div class="item">
-                    <h4 class="degree">BTECH IN COMPUTER SCIENCE</h4>
+
+                    <h4 class="degree"><i class="glyphicon glyphicon-pushpin"></i> BTECH IN COMPUTER SCIENCE</h4>
                     <h5 class="meta">NSEC , Kolkata</h5>
                     <div class="time"></div>
                 </div>
@@ -66,22 +69,25 @@
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc"></span></li>
-                    <li>Bengali <span class="lang-desc">(native)</span></li>
-                    <li>Hindi <span class="lang-desc"></span></li>
+                    <li><i class="glyphicon glyphicon-triangle-right"></i> English <span class="lang-desc"></span></li>
+                    <li><i class="glyphicon glyphicon-triangle-right"></i> Bengali <span class="lang-desc">(native)</span></li>
+                    <li><i class="glyphicon glyphicon-triangle-right"></i> Hindi <span class="lang-desc"></span></li>
                 </ul>
             </div>
             <!-- Interests -->
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Interests</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>Coding</li>
-                    <li>Music</li>
+                    <li> <i class="glyphicon glyphicon-triangle-right"></i>Coding</li>
+                    <li> <i class="glyphicon glyphicon-triangle-right"></i>Music</li>
                 </ul>
             </div>
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Skills</h2>
-                <h5 ng-repeat="f in funs">{{f}}</h5>
+                <h5 ng-repeat="f in funs">
+                    <i class="glyphicon glyphicon-triangle-right"></i>
+                    {{f}}
+                </h5>
             </div>
         </div>
 
@@ -104,6 +110,7 @@
                 <h2 class="section-title"><i class="fa fa-star"></i>Experience</h2>
                 <div class="summary">
                     <p>
+                        <i class="glyphicon glyphicon-pushpin"></i>
                         <span class="project-tagline"><strong>FULLSTACK DEVELOPER</strong></span> <br>
                         <b>
                             <a href="http://www.signzy.com/">@ Signzy Technologies Pvt Ltd , BANGALORE</a>
@@ -111,9 +118,15 @@
                         <br>
                         <span class="project-tagline">Working As a Fullstack developer</span> <br>
                         <span class="project-tagline">June 2017- Till Date </span>
+                        <ul>
+                            <li>Onboarding Projects Developement</li>
+                            <li>Api Integration and Implemetation</li>
+                            <li>Feature Enhancement</li>
+                        </ul>
                     </p>
                      <hr style="width: 100%; color: black; height: 0.15px; background-color:black;" />
                     <p>
+                        <i class="glyphicon glyphicon-pushpin"></i>
                         <span class="project-tagline"><strong>INTERN </strong> </span> <br>
                         <b>
                             <a href="http://www.apnastudy.com/">@ Apnastudy Technology , KOLKATA</a> 
@@ -138,34 +151,34 @@
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
 
                 <div class="item" ng-repeat="i in projs">
+                    
+
                     <span class="project-title">
-                    	{{$index+1}} &nbsp <a href="#hook"><b>{{i.name}}</b></a></span>
-                        <a href="{{i.url}}" target="_blank" style="text-decoration:none">
-                    <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
-                              DEMO
-                    </button></a>
-                    <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
-                    		<a href="{{i.github}}" target="_blank" class ="pull-right"><i class="fa fa-github"></i>
-                    		</a>
-                      </button>
+                    	<i class="glyphicon glyphicon-menu-right"></i>
+                        <a href="#hook"><b>{{i.name}}</b></a>
+                    </span>
+                    <a href="{{i.url}}" target="_blank" style="text-decoration:none">
+                        <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="see a demo">
+                                  DEMO
+                        </button>
+                    </a>
+
+                    <a href="{{i.github}}" target="_blank" class ="pull-right">
+                        <button class="btn btn-default pull-right" data-toggle="tooltip" data-placement="bottom" title="source code of {{i.name}} in github">
+                        		<i class="fa fa-github"></i>
+                        </button>
+                    </a>
+
                     <br>
                     <span class="project-tagline">
                     	<span class="project-tagline">{{i.description}}</span>
-                    <br>
+                        <br>
                     </span>
                     <hr>
 
                 </div>
             </section>
 
-           <!--  <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Trainings</h2>
-                <div class="item" ng-repeat="s in skill">
-                        <span class="project-title">{{s.name}}</span>
-                        <hr>
-                </div>
-            </section>
-            <br> -->
 
             <section class="section projects-section">
                 <h2 class="section-title" title="click to download"><i class="fa fa-briefcase"></i><a href="myresume.pdf" style="text-decoration:none">CV <h5>LINK TO DOWNLOAD</h5></a></h2>

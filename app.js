@@ -5,34 +5,36 @@ var data = [
     name:'NEWZY',
     url:'http://newzy.xyz',
     github:'https://github.com/abdghani/newzy/tree/master/front',
-    description:'A live news app for fetching news from various online resources and user-user based colaborative filtering'
+    description:'A live news app for fetching news from various online resources and user-user based colaborative filtering',
+    image:'newzy.png'
   },
   {
     name:'P-IDE',
     url:'http://pide.greyphase.xyz',
     github:'https://github.com/abdghani/pIDE',
     description:'An online IDE for python where one can run machine learning codes using tensorflow,pandas,numpy,scipy,etc . Build fully on MEAN stack with socket implemetation . Supports Online Code Sharing with live coding Editing with url sharing. ',
-    image:'makepost.png'
+    image:'pide.png'
   },
   {
     name:'POSify',
     url:'http://posify.greyphase.xyz/',
     github:'https://github.com/abdghani/posify',
     description:'A parts of speech tagging application with language transaltion Using NLTK and TextBlob',
-    image:'makepost.png'
+    image:'posify.png'
   },
   {
     name:'FREELANCE',
     url:'http://freelance.greyphase.xyz',
     github:'https://github.com/IamAKX/Freelance',
-    description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://freelance.greyphase.xyz/#!/app'
+    description:'An android app for freelance user with native implemetation and nodejs as a backend language . Redis for session management and mongo as a data storage. Download the app at http://freelance.greyphase.xyz/#!/app',
+    image:'freelance.png'
   },
   {
     name:'SMSANY',
     url:'http://smsany.greyphase.xyz/',
     github:'https://github.com/abdghani/smsany',
     description:'A simple mobile push message service using Amazon sns . Can be included as a service with any platfor by user authentication  ',
-    image:'cides.png'
+    image:'smsany.png'
   },
   {
     name:'EXPRESS TODO',
@@ -43,10 +45,9 @@ var data = [
   },
   {
     name:'MOVIEREC',
-    // url:'http://todos.greyphase.xyz/',
     github:'https://github.com/abdghani/recomender',
     description:'A movie recommender system based on K means clustering',
-    image:'bookmark.png'
+    // image:'bookmark.png'
   },
   {
     name:'C-IDE',
